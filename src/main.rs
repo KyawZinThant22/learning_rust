@@ -1,11 +1,13 @@
 fn main() {
-    let sum = my_function(3, 5);
-    println!("Sum of the number is : {}", sum);
-}
+    println!("Hello control flow");
 
-fn my_function(x: i32, y: i32) -> i32 {
-    println!("The value of x is :{} ", x);
-    println!("The value of y is :{}", y);
-    let sum: i32 = x + y;
-    return sum;
+    let number = 59;
+
+    if number < 10 {
+        println!("Number is less than 10");
+    } else if number < 22 {
+        println!("Also number is less thant 12");
+    } else {
+        println!("number is larger than we expected");
+    }
 }
